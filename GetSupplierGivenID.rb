@@ -1,4 +1,6 @@
+#This prints the label to prompt the user to enter a product id.
 print "Enter Product ID "
+#This collects the entered product id.
 productId = gets.chomp
 
 #This includes the source code to make http requests

@@ -28,6 +28,6 @@ ordersHash["value"].each do |orderDetail|
 	print "          "
 	factor = 1 - orderDetail["Discount"].to_f
 	price = orderDetail["UnitPrice"].to_f * orderDetail["Quantity"].to_f * factor
-	puts "$#{price}"
+	puts "$#{price.round(2)}"
 end
 

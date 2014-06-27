@@ -41,6 +41,6 @@ supplierData = supplierStr.body
 #This parses the body of the http JSON response to a ruby object
 supplierHash = JSON.parse(supplierData)
 #This prints the supplier name
-puts "Supplier ID: #{supplierHash["CompanyName"]}"
+puts "Supplier name: #{supplierHash["CompanyName"]}"
 
 	
